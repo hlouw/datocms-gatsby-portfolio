@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Masonry from 'react-masonry-component'
-import Img from 'gatsby-image'
+import React from 'react';
+import Link from 'gatsby-link';
+import Masonry from 'react-masonry-component';
+import Img from 'gatsby-image';
 
 const IndexPage = ({ data }) => (
   <Masonry className="showcase">
@@ -23,9 +23,9 @@ const IndexPage = ({ data }) => (
       </div>
     ))}
   </Masonry>
-)
+);
 
-export default IndexPage
+export default IndexPage;
 
 export const query = graphql`
   query IndexQuery {
@@ -45,4 +45,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

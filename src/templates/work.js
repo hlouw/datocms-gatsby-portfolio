@@ -1,10 +1,10 @@
-import React from 'react'
-import Slider from 'react-slick'
-import { HelmetDatoCms } from 'gatsby-source-datocms'
-import Img from 'gatsby-image'
+import React from 'react';
+import Slider from 'react-slick';
+import { HelmetDatoCms } from 'gatsby-source-datocms';
+import Img from 'gatsby-image';
 
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default ({ data }) => (
   <article className="sheet">
@@ -22,7 +22,7 @@ export default ({ data }) => (
       <div
         className="sheet__body"
         dangerouslySetInnerHTML={{
-          __html: data.datoCmsWork.descriptionNode.childMarkdownRemark.html,
+          __html: data.datoCmsWork.descriptionNode.childMarkdownRemark.html
         }}
       />
       <div className="sheet__gallery">
@@ -30,7 +30,7 @@ export default ({ data }) => (
       </div>
     </div>
   </article>
-)
+);
 
 export const query = graphql`
   query WorkQuery($slug: String!) {
@@ -58,4 +58,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
