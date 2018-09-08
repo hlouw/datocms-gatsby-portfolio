@@ -16,17 +16,15 @@
     "react-masonry-component": "6.0.1",
     "react-slick": "0.15.4"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.js\""
   },
   "devDependencies": {
-    "prettier": "^1.8.2"
+    "prettier": "^1.14.2"
   }
 }
