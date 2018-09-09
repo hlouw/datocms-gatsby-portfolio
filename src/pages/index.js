@@ -29,7 +29,10 @@ export default IndexPage;
 
 export const query = graphql`
   query IndexQuery {
-    allDatoCmsWork(sort: { fields: [position], order: ASC }) {
+    allDatoCmsWork(
+      filter: { locale: { eq: "en" } }
+      sort: { fields: [position], order: ASC }
+    ) {
       edges {
         node {
           id
