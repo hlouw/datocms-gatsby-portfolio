@@ -10,13 +10,17 @@
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "1.0.14",
+    "gatsby-plugin-typescript": "^1.4.20",
     "gatsby-source-datocms": ">=1.0.26",
     "gatsby-source-filesystem": "1.5.9",
     "gatsby-transformer-remark": "1.7.23",
     "react-masonry-component": "6.0.1",
-    "react-slick": "0.15.4"
+    "react-slick": "0.15.4",
+    "typescript": "^3.0.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -25,6 +29,9 @@
     "format": "prettier --write \"src/**/*.js\""
   },
   "devDependencies": {
+    "@types/prop-types": "^15.5.5",
+    "@types/react": "^16.4.14",
+    "@types/react-slick": "^0.23.2",
     "prettier": "^1.14.2"
   }
 }
